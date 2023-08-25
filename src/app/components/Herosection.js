@@ -1,5 +1,5 @@
-import heroStyles from "@/app/styles/herosection.module.css"
 import styles from "@/app/styles/common.module.css"
+import heroStyles from "@/app/styles/herosection.module.css"
 import Image from "next/image";
 import Link from "next/link";
 import { Mulish } from 'next/font/google';
@@ -14,36 +14,99 @@ const mulish = Mulish({
 const Herosection = (props) => {
     let { title, imageUrl } = props;
     return (
-        <main className={heroStyles.main_section}>
-            <div className={styles.container}>
-                <div className={styles.grid_two_section}>
-                    <div className={heroStyles.hero_content}>
-                        <h1>{title}</h1>
-                        <p> From award-winning dramas to blockbuster action movies, we&apos;ve got you covered. Browse
-                            our
-                            selection of the latest and greatest movies, and find your new favorite today.
-                        </p>
-                        <Link href="/movie">
-                            <button className={mulish.className}>
-                                Explore Movies
-                            </button>
-                        </Link>
-                    </div>
+        <>
+            <h1 className={styles.h1}>Full Stack Web Development Training (Student Offer)</h1>
 
-                    <div className={heroStyles.hero_image}>
-                        <Image src={imageUrl} alt="watching netflix" width={500} height={500} />
+            <main className={heroStyles.main_section}>
+                <div className={styles.container}>
+                    <div className={styles.grid_two_section}>
+                        <div >
+                            <Image src={imageUrl} alt="watching netflix" width={500} height={500} />
+
+                            ₹7,000.00	₹24,000.00
+                            <button>Add to Cart</button>
+
+                            <p>
+
+
+                                All Levels
+                                12 Month Duration
+                                August 23, 2023 Last Updated
+
+
+                            </p>
+
+                            <p>
+
+                                About Course
+                                Training will start from: 09 September 2023.
+
+                                Get ready for a year-long journey into the exciting world of web development with our Full Stack Web Development Training. Designed for students like you, this program will take you from the foundations of HTML, CSS, and JavaScript to mastering advanced technologies like ReactJS, NodeJS, databases, and server management. This curriculum is designed to provide you with a solid foundation and the advanced knowledge needed to excel in the rapidly evolving field of technology. As you progress through each module, you’ll engage in hands-on projects, interactive classes, and gain practical experience that will set you apart as a skilled and proficient full stack developer. Upon successful completion, you’ll receive an internship certificate, validating your expertise and preparing you for a successful career in the dynamic world of web development.
+
+                            </p>
+                            <p>
+
+                                What Will You Learn?
+
+                                HTML
+                                CSS
+                                Bootstrap
+                                Tailwind
+                                Sass
+                                Javascript
+                                JQuery
+                                ReactJS + NextJS
+                                PWA
+                                NodeJS
+                                MySQL
+                                MongoDB
+                                Linux
+                                Nginx
+                                Apache
+                                Git
+                                Docker
+                                AWS / GCP / Azure
+                                Hosting on CPanel
+                                SSL
+                                Domain Setup (DNS)
+                                Email Setup (MX Record)
+                                Chrome Extension
+                                Chat-GPT use in Coding
+
+
+                            </p>
+                        </div>
+
+
                     </div>
                 </div>
-            </div>
-            <div className={heroStyles['custom-shape-divider-bottom-1681647578']}>
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                    preserveAspectRatio="none">
-                    <path
-                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-                        className={heroStyles["shape-fill"]}></path>
-                </svg>
-            </div>
-        </main>
+            </main>
+
+
+            {/* box */}
+            Live Sessions Recordings
+
+            Access recordings of all live sessions, ensuring you never miss a class and can review concepts at your own pace.
+            Doubt Clearing Support
+
+            Get dedicated doubt clearing sessions to address any questions and clarify concepts for a thorough understanding.
+            Training Certificate
+
+            Earn a valuable training certificate upon successful completion, boosting your resume and demonstrating practical skills.
+            Career Assistance
+
+            Receive guidance and support for your career journey, including resume building and interview preparation.
+
+
+            <p>
+
+                Get certificates on course completion
+
+                Receive Certificates When You Successfully Complete Our Courses, Validating Your Achievements and Skill Development.
+
+            </p>
+        </>
+
     );
 };
 

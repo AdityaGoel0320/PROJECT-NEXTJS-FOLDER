@@ -1,111 +1,255 @@
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: black;
 }
 
 html {
-    font-size: 62.5%;
-    overflow-x: hidden;
+  font-size: 62.5%;
 }
 
-/* Remove default margin and padding */
-html,
-body,
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+
+  color: black;
+
+
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: black;
+
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+
+}
+
+h4 {
+  font-size: 2rem;
+
+}
+
+p {
+  font-size: 1rem;
+}
+
+#i{
+  font-size: 3rem;
+  color: black;
+}
+
+
+
+#i:hover {
+  color: blue;
+}
+#main {
+
+  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8.5rem;
+  gap: 3rem;
+}
+
+button {
+  background-color: orange;
+  font-weight: bold;
+  color: black;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  /* font-weight: bolder;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 2rem; */
+  /* font-size: larger; */
+}
+
+.size {
+  background-color: black;
+  /* border: 2px solid black; */
+  color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: orange;
+  font-weight: bold;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+}
+.btn:hover{
+  background-color: black;
+  font-weight: bolder;
+  color: white;
+}
+.btn_small{
+  font-size: 0.5rem;
+}
+#item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+a{
+  color: black;
+}
+
+#item_single{
+  display: flex;
+  /* flex-direction: column; */
+  gap: 1rem;
+}
+
+
+#img {
+  border: 2px solid black;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100%;
+}
+
+/* Apply font families to different elements */
+
+/* Headings (H1, H2, H3, etc.) */
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Subtopics and Body Text */
 p,
-ul,
-ol,
-li,
-blockquote {
-    margin: 0;
-    padding: 0;
+span,
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+/* Buttons */
+button,
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* You can adjust the weight according to your preference */
 }
 
 
-/* Add border box to images */
-img {
-    border: 0;
+
+
+
+
+
+.App {
+  text-align: center;
 }
 
-/*styling the text */
-
-h1 {
-    font-size: 5.8rem;
-    color: #161617;
-    font-weight: 900;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-h2{
-    font-size: 3.2rem;
-    margin-bottom: 2rem;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-p, a, li {
-    font-size: 1.6rem;
-    /*line-height: 1.5;*/
-    margin: 2rem 0 4rem 0;
-    font-weight: 300;
-    letter-spacing: .05rem;
-    line-height: 1.65;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-/* Remove anchor text decoration */
-a {
-    text-decoration: none;
-    line-height: 0;
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(360deg);
+  }
 }
 
 
-/* Remove list styles */
-ul,
-ol, li {
-    list-style: none;
-    margin: 0;
+
+@media (max-width : 320px) {
+  html {
+      font-size: 35%;
+  }
+
 }
 
 
-/*common styling across all the pages*/
 
+@media (min-width : 320px) and (max-width : 480px) {
+  html {
+      font-size: 43.75%;
+  }
 
-/* CSS */
-button {
-    background-color: #161617;
-    border-radius: 2.4rem;
-    border-style: none;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    flex-shrink: 0;
-    font-size: 1.6rem;
-    font-weight: 400;
-    height: 4rem;
-    padding: .3rem 1.2rem;
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-    transition: all .5s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    /*letter-spacing: -0.1rem;*/
 }
 
-button:hover {
-    background-color: #fff;
-    border: .1rem solid #161617;
-    color: #161617;
-    transition-duration: .1s;
+@media (min-width : 481px) and (max-width : 768px) {
+  html {
+      font-size: 53.125%;
+  }
+
 }
 
-@media (min-width: 768px) {
-    button {
-        padding: 0 2.6rem;
-    }
+@media (min-width : 769px) and (max-width : 1023px) {
+  html {
+      font-size: 62.5%;
+  }
+
 }
 
+
+@media (min-width : 1024px) and (max-width : 1200px) {
+  html {
+      font-size: 71.85%;
+  }
+
+}
+
+
+@media (min-width : 1201px) {
+  html {
+      font-size: 77%;
+  }
+
+}

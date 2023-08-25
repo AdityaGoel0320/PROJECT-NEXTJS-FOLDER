@@ -1,0 +1,10 @@
+https://courses.xzect.com/courses/full-stack-web-development-training-student-offer/
+
+
+
+ <main >
+<div >
+
+
+
+vercel link ; https://vercel.com/new/success?developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=project-nextjs-folder-cxh0qbcd0-adityagoel0320.vercel.app&projectName=project-nextjs-folder&s=https%3A%2F%2Fgithub.com%2FAdityaGoel0320%2FPROJECT-NEXTJS-FOLDER&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1
