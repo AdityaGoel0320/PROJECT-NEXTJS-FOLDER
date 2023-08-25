@@ -81,7 +81,161 @@ const Herosection = (props) => {
                         </div>
 
                         <div className={heroStyles.rightPart}>
-                            A course by
+                            <h3>
+
+                                A course by
+                            </h3>
+                            <p className={heroStyles.line}>
+                                <Image src="/smallLogo.png" alt="" width={25} height={25} />Xzect
+
+
+                            </p>
+                            <div>
+                                Course Suitable For
+                                <ul>
+                                    <li>
+                                        Recently Completed High School.
+
+                                    </li>
+                                    <li>
+
+                                        Undergraduates (B.Tech, BCA, MCA, B.VOC,)
+                                    </li>
+                                    <li>
+
+                                        Aspiring Developers
+                                    </li>
+                                    <li>
+                                        Tech Enthusiasts
+
+                                    </li>
+                                </ul>
+
+
+
+
+                            </div>
+
+                            <div>
+
+                                Course Highlights
+                                <ul>
+
+                                    <li>
+
+                                        Live Interactive Sessions
+                                    </li>
+                                    <li>
+
+                                        Real-World Projects and Practical Use Cases
+                                    </li>
+                                    <li>
+
+                                        Industry Relevance
+                                    </li>
+                                    <li>
+
+                                        Doubt Clearing Expert Sessions
+                                    </li>
+                                    <li>
+
+                                        Career Assistance
+                                    </li>
+                                    <li>
+
+                                        Certificates
+                                    </li>
+                                    <li>
+
+                                        Resume and Portfolio Building
+                                    </li>
+                                    <li>
+
+                                        Training will Continue until you become a Full Stack Developer even after 12 months timeline is over
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <div>
+
+                                Course Timings (IST)
+
+                                <ul>
+                                    <li>
+
+                                        Tentative Slots: You can choose any one slot. Link will be provided after course registration.
+                                    </li>
+                                    <li>
+
+                                        Sat & Sun: 7:00 PM - 9:00 PM
+                                    </li>
+                                    <li>
+
+                                        Wed & Fri: 7:00 PM - 9:00 PM
+                                    </li>
+                                    <li>
+
+                                        Wed & Fri: 1:00 PM - 3:00 PM
+                                    </li>
+                                    <li>
+
+                                        Tue & Thu: 11:00 AM - 1:00 PM
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <div>
+
+                                Requirements
+
+                                <ul>
+
+                                    <li>
+
+                                        Basic Computer Literacy (Familiarity with using a computer, browsing the internet, and using common software applications.)
+                                    </li>
+                                    <li>
+
+                                        A Laptop, PC or Mac with internet connectivity.
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div>
+
+                                Tags
+                                <span>
+
+                                    Certificate
+                                </span>
+                                <span>
+
+                                    Full Stack Development
+                                </span>
+                                <span>
+
+                                    Live Classes
+                                </span>
+                                <span>
+
+                                    Software
+                                </span>
+                                <span>
+
+                                    Student Discount
+                                </span>
+
+
+                            </div>
+
+
+
                         </div>
 
                     </div>
