@@ -15,26 +15,29 @@ const Herosection = (props) => {
     let { title, imageUrl } = props;
     return (
         <>
-            <h1 className={styles.h1}>Full Stack Web Development Training (Student Offer)</h1>
+            <h1 >Full Stack Web Development Training (Student Offer)</h1>
 
-            <main className={heroStyles.main_section}>
-                <div className={styles.container}>
-                    <div className={styles.grid_two_section}>
-                        <div >
-                            <Image src={imageUrl} alt="watching netflix" width={500} height={500} />
+            <main>
+                <div className={heroStyles.container}>
+                    <div className={heroStyles.main_div}>
+                        <div className={heroStyles.leftPart} >
+                            <Image className={heroStyles.img} src="/pic1.jpg" alt="" width={1000} height={800} />
 
-                            ₹7,000.00	₹24,000.00
+                            <p className={heroStyles.line}>
+                                <span className={heroStyles.big}>₹7,000.00</span>
+                                <span className={heroStyles.small}>₹24,000.00</span>
+                            </p>
                             <button>Add to Cart</button>
+                            <hr className={heroStyles.hr} />
 
-                            <p>
-
-
-                                All Levels
-                                12 Month Duration
-                                August 23, 2023 Last Updated
-
+                            <p className={heroStyles.features}>
+                                <p className={heroStyles.line}> All Levels</p>
+                                <p className={heroStyles.line}>12 Month Duration</p>
+                                <p className={heroStyles.line}> August 23, 2023 Last Updated</p>
 
                             </p>
+
+                            <hr className={heroStyles.hr} />
 
                             <p>
 
@@ -77,6 +80,9 @@ const Herosection = (props) => {
                             </p>
                         </div>
 
+                        <div className={heroStyles.rightPart}>
+                            A course by
+                        </div>
 
                     </div>
                 </div>
