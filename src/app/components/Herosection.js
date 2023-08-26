@@ -5,6 +5,8 @@ import Link from "next/link";
 import { Mulish } from 'next/font/google';
 import Box from "./Box";
 import Certificate from "./Certificate";
+import AccordionNextJs from "./Accordion";
+import AccordianMain from "./Main";
 
 const mulish = Mulish({
     weight: ['300', '400', '500', '600', '700', '800', '900'],
@@ -271,6 +273,10 @@ const Herosection = (props) => {
             <Box />
 
             <Certificate />
+            {/* <AccordianMain/> */}
+            {/* <Accordion  title="Section 1" content="Content for section 1." /> */}
+            <AccordionNextJs title="Section 1" content="Content for section 1."/>
+            <AccordianMain/>
         </>
 
     );
