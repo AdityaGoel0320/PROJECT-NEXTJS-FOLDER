@@ -3,9 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 3rem;
-    padding: 1rem;
+    margin: 5rem;
+    padding: 5rem;
+    text-align: center;
     gap: 1rem;
+    border: 2px solid red;
     
 }
 

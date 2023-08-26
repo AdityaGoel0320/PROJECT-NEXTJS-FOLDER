@@ -1,26 +1,26 @@
 import React from 'react';
-import footerStyles from '@/app/styles/footer.module.css'
+import style from '@/app/styles/footer.module.css'
 // import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 
 
 
-export const metadata = {
-    url: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css',
-}
-
 const Footer = () => {
     return (
         <>
-            <div>
+        <div className={style.footer}>
 
-                <Link href="https://courses.xzect.com/">
-                    <Image src="/logo.jpg" alt="my logo image" width={150} height={40} />
+            <div className={style.container}>
 
-                </Link>
-                <div>
-                    <h3>
+
+                <div className={style.content}>
+                    <Link href="https://courses.xzect.com/">
+                        <Image src="/logo.jpg" alt="my logo image" width={150} height={40} className={style.img} />
+
+                    </Link>
+
+                    <h3 className={style.h3}>
 
                         Unlock Your Potential with Xzect’s Dynamic Courses
                     </h3>
@@ -39,16 +39,22 @@ const Footer = () => {
 
                         Led by our team of seasoned professionals, each course is carefully crafted to provide practical insights, hands-on experiences, and industry-relevant knowledge. Whether you’re looking to upskill, explore new horizons, or dive deeper into a specific tech discipline, Xzect’s courses are your gateway to mastering the tools and techniques that drive innovation
                     </p>
-                    <div>
+                    <div className={style.contact}>
 
-                        <span>
+                        <p>
 
-                            +91 98188 06393
-                            contact@xzect.com
-                        </span>
+                            +91 98188 06393 <br />contact@xzect.com
+                        </p>
+                        <p>
+
+                            
+                        </p>
                     </div>
+                </div>
 
-                    <h3>
+                <div className={style.courses}>
+
+                    <h3 className={style.h3}>
 
                         Courses
                     </h3>
@@ -103,70 +109,86 @@ const Footer = () => {
                         </li>
 
                     </ul>
+                </div>
+
+                <div className={style.about}>
 
 
-<h3>
+                    <h3 className={style.h3}>
 
 
-                    About
-</h3>
-<ul>
-    <li>
+                        About
+                    </h3>
+                    <ul>
+                        <li>
 
 
-                    Go to Main Website
-    </li>
-    <li>
+                            Go to Main Website
+                        </li>
+                        <li>
 
 
-                    About Xzect
-    </li>
-    <li>
+                            About Xzect
+                        </li>
+                        <li>
 
-                    Tech Stack
-    </li>
-    <li>
+                            Tech Stack
+                        </li>
+                        <li>
 
-                    Our Services
-    </li>
-    <li>
+                            Our Services
+                        </li>
+                        <li>
 
-                    Industries
-    </li>
-    <li>
+                            Industries
+                        </li>
+                        <li>
 
-                    Contact Us
-    </li>
-    <li>
+                            Contact Us
+                        </li>
+                        <li>
 
-                    Terms & Conditions
-    </li>
-    <li>
+                            Terms & Conditions
+                        </li>
+                        <li>
 
-                    Refund Policy
-    </li>
-    <li>
+                            Refund Policy
+                        </li>
+                        <li>
 
-                    Shipping Policy
-    </li>
-    <li>
+                            Shipping Policy
+                        </li>
+                        <li>
 
-                    Privacy Policy
-    </li>
-    <li>
-        
-                    Legal Information
-    </li>
-    <li>
+                            Privacy Policy
+                        </li>
+                        <li>
 
-                    Careers
-    </li>
+                            Legal Information
+                        </li>
+                        <li>
+
+                            Careers
+                        </li>
                     </ul>
 
-<hr />
-                    Main Website (www.xzect.com)
-                    © 2018 - 2023. Xzect Labs. All rights reserved.
                 </div>
+
+
+
+            </div>
+            <hr className={style.hr} />
+            <div className={style.footer_end}>
+
+                <span>
+
+                    Main Website (www.xzect.com)
+                </span>
+                <span>
+
+                    © 2018 - 2023. Xzect Labs. All rights reserved.
+                </span>
+            </div>
             </div>
 
         </>
