@@ -275,7 +275,7 @@ const Herosection = (props) => {
                 <p>
                     Receive Certificates When You Successfully Complete Our Courses, Validating Your Achievements and Skill Development.
                 </p>
-                <Image className={heroStyles.img} src="/certicate.svg" alt="" width={1000} height={800} />
+                <Image className={heroStyles.img} src="/certicate.jpg" alt="" width={1000} height={800} />
             </div>
         </>
 
