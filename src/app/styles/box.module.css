@@ -1,0 +1,98 @@
+.smallBox {
+    display: flex;
+    background-color: lightgray;
+    font-size: 5rem;
+    flex-direction: column;
+    text-align: center;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+@media (max-width : 320px) {
+    .box {
+        flex-direction: column;    
+            }
+        
+        
+            .smallBox {
+                display: flex;
+                background-color: lightgray;
+                font-size: 5rem;
+                flex-direction: column;
+                text-align: center;
+                height: fit-content;
+                width: 50rem;
+            
+            }
+  
+}
+
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+    .box {
+        flex-direction: column;    
+            }
+        
+        
+            .smallBox {
+                display: flex;
+                background-color: lightgray;
+                font-size: 5rem;
+                flex-direction: column;
+                text-align: center;
+                height: fit-content;
+                width: 50rem;
+
+            
+            }
+
+}
+
+@media (min-width : 481px) and (max-width : 768px) {
+    .box {
+flex-direction: column;    
+    }
+
+
+    .smallBox {
+        display: flex;
+        background-color: lightgray;
+        font-size: 5rem;
+        flex-direction: column;
+        text-align: center;
+        height:fit-content;
+        width: 50rem;
+
+    
+    }
+
+
+}
+
+@media (min-width : 769px) and (max-width : 1023px) {
+
+
+}
+
+
+@media (min-width : 1024px) and (max-width : 1200px) {
+
+}
+
+
+@media (min-width : 1201px) {
+
+
+}

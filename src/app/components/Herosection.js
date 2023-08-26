@@ -3,6 +3,7 @@ import heroStyles from "@/app/styles/herosection.module.css"
 import Image from "next/image";
 import Link from "next/link";
 import { Mulish } from 'next/font/google';
+import Box from "./Box";
 
 const mulish = Mulish({
     weight: ['300', '400', '500', '600', '700', '800', '900'],
@@ -15,7 +16,7 @@ const Herosection = (props) => {
     let { title, imageUrl } = props;
     return (
         <>
-            <h1 >Full Stack Web Development Training (Student Offer)</h1>
+            <h3 >Full Stack Web Development Training (Student Offer)</h3>
 
             <main>
                 <div className={heroStyles.container}>
@@ -265,6 +266,17 @@ const Herosection = (props) => {
                 Receive Certificates When You Successfully Complete Our Courses, Validating Your Achievements and Skill Development.
 
             </p>
+
+            <Box />
+
+            <div className="certicate_container">
+
+                <h3>Get certificates on course completion</h3>
+                <p>
+                    Receive Certificates When You Successfully Complete Our Courses, Validating Your Achievements and Skill Development.
+                </p>
+                <Image className={heroStyles.img} src="/certicate.svg" alt="" width={1000} height={800} />
+            </div>
         </>
 
     );
