@@ -176,7 +176,7 @@ const Herosection = () => {
                     <div className={heroStyles.rightPart}>
                         <h3 className={heroStyles.h3}>A course by</h3>
                         <p className={heroStyles.line}>
-                            <Image className={heroStyles.smallLogo} src="/smallLogo.png" alt="" width={25} height={25} />Xzect
+                            <Image className={heroStyles.smallLogo} src="/smallLogo.png" alt="" width={25} height={25} /><span className={heroStyles.h3}>Xzect</span>
 
 
                         </p>
