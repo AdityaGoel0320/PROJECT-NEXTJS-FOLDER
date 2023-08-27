@@ -4,8 +4,6 @@ const Page = () => {
     return (
         <>
           <Herosection/>
-
-          
         </>
     );
 };

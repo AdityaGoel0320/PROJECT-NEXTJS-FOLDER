@@ -2,8 +2,6 @@ import heroStyles from "@/app/styles/herosection.module.css"
 import Image from "next/image";
 import Box from "./Box";
 import Certificate from "./Certificate";
-import AccordionNextJs from "./Accordion";
-import AccordianMain from "./Main";
 
 
 const Herosection = () => {
@@ -345,10 +343,7 @@ const Herosection = () => {
             <Box />
 
             <Certificate />
-            {/* <AccordianMain/> */}
-            {/* <Accordion  title="Section 1" content="Content for section 1." /> */}
-            <AccordionNextJs title="Section 1" content="Content for section 1." />
-            <AccordianMain />
+            
         </>
 
     );
