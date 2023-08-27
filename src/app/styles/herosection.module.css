@@ -2,6 +2,24 @@
     font-size: 3rem;
 }
 
+.heading{
+    font-size: 3.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+.btn:hover{
+    background-color: black;
+}
 .h4 {
     font-size: 2rem;
 }
@@ -147,6 +165,7 @@
 
 .small {
     font-size: 2rem;
+    text-decoration: line-through;
 
 }
 
@@ -162,7 +181,9 @@
 .features {
     display: flex;
     flex-direction: column;
+    font-weight: 500;
     gap: 0.3rem;
+    font-size: 1.5rem;
 
 }
 

@@ -9,7 +9,7 @@ import AccordianMain from "./Main";
 const Herosection = () => {
     return (
         <>
-            <h3 className={heroStyles.h3}>Full Stack Web Development Training (Student Offer)</h3>
+            <h3 className={heroStyles.heading}>Full Stack Web Development Training (Student Offer)</h3>
 
             <main>
                 <div className={heroStyles.main_div}>
@@ -23,7 +23,7 @@ const Herosection = () => {
                             <span className={heroStyles.big}>₹7,000.00</span>
                             <span className={heroStyles.small}>₹24,000.00</span>
                         </p>
-                        <button>Add to Cart</button>
+                        <button className={heroStyles.btn}>Add to Cart</button>
                         <hr className={heroStyles.hr} />
 
                         <p className={heroStyles.features}>
@@ -32,6 +32,7 @@ const Herosection = () => {
                             <p className={heroStyles.line}> August 23, 2023 Last Updated</p>
 
                         </p>
+
 
                         <hr className={heroStyles.hr} />
 
