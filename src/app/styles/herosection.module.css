@@ -49,6 +49,7 @@
     margin-left: 2rem;
     width: 35%;
     background-color: #f7f9fa;
+    border: 2px solid gray;
 
 }
 
@@ -124,11 +125,15 @@
 
 .img {
     display: flex;
-    align-items: centrer;
+    align-items: center;
     justify-content: center;
+   
+    /* border: 1px solid gray; */
+}
+
+.poster {
     width: 50rem;
     height: 36rem;
-    /* border: 1px solid gray; */
 }
 
 
@@ -178,7 +183,7 @@
         flex-direction: column;
         width: auto;
         padding: 2rem;
-        margin: 3rem;
+        
 
     }
 
@@ -203,7 +208,7 @@
         flex-direction: column;
         width: auto;
         padding: 2rem;
-        margin: 3rem;
+        
 
     }
 
@@ -226,7 +231,7 @@
         flex-direction: column;
         width: auto;
         padding: 2rem;
-        margin: 3rem;
+        
 
     }
 
@@ -249,7 +254,7 @@
         flex-direction: column;
         width: auto;
         padding: 2rem;
-        margin: 3rem;
+        
 
     }
 
@@ -273,7 +278,7 @@
         flex-direction: column;
         width: auto;
         padding: 2rem;
-        margin: 3rem;
+        
 
     }
 

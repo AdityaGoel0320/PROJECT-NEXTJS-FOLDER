@@ -14,7 +14,10 @@ const Herosection = () => {
             <main>
                 <div className={heroStyles.main_div}>
                     <div className={heroStyles.leftPart} >
-                        <Image className={heroStyles.img} src="/pic1.jpg" alt="" width={500} height={500} />
+                        <div  className={heroStyles.img}>
+
+                        <Image  className={heroStyles.poster} src="/pic1.jpg" alt="" width={500} height={500} />
+                        </div>
 
                         <p className={heroStyles.line}>
                             <span className={heroStyles.big}>₹7,000.00</span>
@@ -178,6 +181,7 @@ const Herosection = () => {
 
 
                         </p>
+                        <hr className={heroStyles.hr} />
                         <div className={heroStyles.right_courses}>
                             <h4 className={heroStyles.h4}>
                                 Course Suitable For
