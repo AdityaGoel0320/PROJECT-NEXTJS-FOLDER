@@ -126,7 +126,7 @@
     display: flex;
     align-items: centrer;
     justify-content: center;
-    width: 63rem;
+    width: 50rem;
     height: 36rem;
     /* border: 1px solid gray; */
 }
@@ -184,7 +184,7 @@
 
     .leftPart {
         width: auto;
-        margin: 3rem;
+        
         padding: 2rem;
     }
 
@@ -209,7 +209,7 @@
 
     .leftPart {
         width: auto;
-        margin: 3rem;
+        
         padding: 2rem;
     }
 
@@ -232,7 +232,7 @@
 
     .leftPart {
         width: auto;
-        margin: 3rem;
+        
         padding: 2rem;
     }
 
@@ -255,7 +255,7 @@
 
     .leftPart {
         width: auto;
-        margin: 3rem;
+        
         padding: 2rem;
     }
 
@@ -279,7 +279,7 @@
 
     .leftPart {
         width: auto;
-        margin: 3rem;
+        
         padding: 2rem;
     }
 

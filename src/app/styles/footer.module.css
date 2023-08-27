@@ -121,21 +121,20 @@
     }
 
   
+ 
     .courses {
         display: flex;
         width: auto;
-        align-items: start;
+        align-items: baseline;
         padding: 1rem;
     }
 
     .about {
         display: flex;
         width: auto;
-        align-items: start;
+        align-items: baseline;
         padding: 1rem;
     }
-
-
 }
 
 
@@ -155,17 +154,18 @@
     }
 
   
+ 
     .courses {
         display: flex;
         width: auto;
-        align-items: start;
+        align-items: baseline;
         padding: 1rem;
     }
 
     .about {
         display: flex;
         width: auto;
-        align-items: start;
+        align-items: baseline;
         padding: 1rem;
     }
 
@@ -188,14 +188,14 @@
     .courses {
         display: flex;
         width: auto;
-        align-items: start;
+        align-items: baseline;
         padding: 1rem;
     }
 
     .about {
         display: flex;
         width: auto;
-        align-items: start;
+        align-items: baseline;
         padding: 1rem;
     }
 
@@ -215,14 +215,14 @@
     .courses {
         display: flex;
         width: auto;
-        align-items: start;
+        align-items: baseline;
         padding: 1rem;
     }
 
     .about {
         display: flex;
         width: auto;
-        align-items: start;
+        align-items: baseline;
         padding: 1rem;
     }
 

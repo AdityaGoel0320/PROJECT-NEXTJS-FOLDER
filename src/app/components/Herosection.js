@@ -1,8 +1,5 @@
-import styles from "@/app/styles/common.module.css"
 import heroStyles from "@/app/styles/herosection.module.css"
 import Image from "next/image";
-import Link from "next/link";
-import { Mulish } from 'next/font/google';
 import Box from "./Box";
 import Certificate from "./Certificate";
 import AccordionNextJs from "./Accordion";
@@ -17,7 +14,7 @@ const Herosection = () => {
             <main>
                 <div className={heroStyles.main_div}>
                     <div className={heroStyles.leftPart} >
-                        <Image className={heroStyles.img} src="/pic1.jpg" alt="" width={1000} height={800} />
+                        <Image className={heroStyles.img} src="/pic1.jpg" alt="" width={500} height={500} />
 
                         <p className={heroStyles.line}>
                             <span className={heroStyles.big}>₹7,000.00</span>
