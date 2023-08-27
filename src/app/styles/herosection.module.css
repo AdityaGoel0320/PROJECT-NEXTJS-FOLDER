@@ -1,33 +1,128 @@
 .h3 {
     font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-/* .container {
-    margin: 2rem;
-} */
+.h4 {
+    font-size: 2rem;
+}
 
+
+.p{
+    font-size: 1.5rem;
+}
 .main_div {
     display: flex;
-    justify-content: center;
-    align-items: centrer;
-    /* flex-direction: column; */
     margin: 5rem;
+    border: 10px solid red;
 }
 
 
 .leftPart {
-    overflow-x: hidden;
+    border: 5px solid blue;
+    width: 65%;
 
 }
 
-/* 
+.about_section{
+    padding: 2rem;
+}
+
+.learn{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cont div ul{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+
+}
+
 .rightPart {
+    border: 5px solid black;
+    margin-left: 2rem;
+    width: 35%;
+    background-color: #f7f9fa;
 
-} */
+}
 
+.right_courses {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.right_courses ul {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.right_highlights {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.right_highlights ul {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.timing{
+    /* display: flex; */
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.timing ul{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+
+.req{
+    /* display: flex; */
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.req ul{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+
+.tag{
+    gap: 0.2rem;
+}
+
+.tag span{
+    display: flex;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 1rem;
+    gap: 1rem;
+    margin: 1rem;
+
+}
 
 .img {
     display: flex;
@@ -68,6 +163,11 @@
 
 }
 
+.smallLogo {
+    height: 2rem;
+    width: 2rem;
+}
+
 
 @media (max-width : 320px) {}
 
@@ -83,21 +183,4 @@
 @media (min-width : 1024px) and (max-width : 1200px) {}
 
 
-@media (min-width : 1201px) {
-
-    .main_div {
-        flex-direction: row;
-    }
-
-    .leftPart {
-        width: 65%;
-
-    }
-
-    .rightPart {
-        width: 35%;
-        border: 2px solid gray;
-        margin: 2rem;
-
-    }
-}
+@media (min-width : 1201px) {}

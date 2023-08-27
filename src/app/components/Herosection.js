@@ -8,21 +8,13 @@ import Certificate from "./Certificate";
 import AccordionNextJs from "./Accordion";
 import AccordianMain from "./Main";
 
-const mulish = Mulish({
-    weight: ['300', '400', '500', '600', '700', '800', '900'],
-    subsets: ['latin'],
-    display: 'swap'
-})
 
-
-const Herosection = (props) => {
-    let { title, imageUrl } = props;
+const Herosection = () => {
     return (
         <>
             <h3 className={heroStyles.h3}>Full Stack Web Development Training (Student Offer)</h3>
 
             <main>
-                {/* <div className={heroStyles.container}> */}
                 <div className={heroStyles.main_div}>
                     <div className={heroStyles.leftPart} >
                         <Image className={heroStyles.img} src="/pic1.jpg" alt="" width={1000} height={800} />
@@ -43,59 +35,156 @@ const Herosection = (props) => {
 
                         <hr className={heroStyles.hr} />
 
-                        <p>
+                        <div className={heroStyles.about_section}>
 
-                            About Course
-                            Training will start from: 09 September 2023.
+                            <h3 className={heroStyles.h3}> About Course</h3>
+                            <h4 className={heroStyles.h4}>
 
-                            Get ready for a year-long journey into the exciting world of web development with our Full Stack Web Development Training. Designed for students like you, this program will take you from the foundations of HTML, CSS, and JavaScript to mastering advanced technologies like ReactJS, NodeJS, databases, and server management. This curriculum is designed to provide you with a solid foundation and the advanced knowledge needed to excel in the rapidly evolving field of technology. As you progress through each module, you’ll engage in hands-on projects, interactive classes, and gain practical experience that will set you apart as a skilled and proficient full stack developer. Upon successful completion, you’ll receive an internship certificate, validating your expertise and preparing you for a successful career in the dynamic world of web development.
+                                Training will start from: 09 September 2023.
 
-                        </p>
-                        <p>
+                            </h4>
+                            <p className={heroStyles.p}>
 
-                            What Will You Learn?
+                                Get ready for a year-long journey into the exciting world of web development with our Full Stack Web Development Training. Designed for students like you, this program will take you from the foundations of HTML, CSS, and JavaScript to mastering advanced technologies like ReactJS, NodeJS, databases, and server management. This curriculum is designed to provide you with a solid foundation and the advanced knowledge needed to excel in the rapidly evolving field of technology. As you progress through each module, you’ll engage in hands-on projects, interactive classes, and gain practical experience that will set you apart as a skilled and proficient full stack developer. Upon successful completion, you’ll receive an internship certificate, validating your expertise and preparing you for a successful career in the dynamic world of web development.
+                            </p>
 
-                            HTML
-                            CSS
-                            Bootstrap
-                            Tailwind
-                            Sass
-                            Javascript
-                            JQuery
-                            ReactJS + NextJS
-                            PWA
-                            NodeJS
-                            MySQL
-                            MongoDB
-                            Linux
-                            Nginx
-                            Apache
-                            Git
-                            Docker
-                            AWS / GCP / Azure
-                            Hosting on CPanel
-                            SSL
-                            Domain Setup (DNS)
-                            Email Setup (MX Record)
-                            Chrome Extension
-                            Chat-GPT use in Coding
+                            <div className={heroStyles.learn}>
+                                <h3 className={heroStyles.h3}>What Will You Learn?</h3>
 
 
-                        </p>
+                            <div className={heroStyles.cont}>
+                            <div>
+                                    <ul>
+                                        <li>
+
+                                            HTML
+                                        </li>
+                                        <li>
+
+                                            Tailwind
+                                        </li>
+                                        <li>
+
+                                            JQuery
+                                        </li>
+                                        <li>
+
+                                            CSS
+                                        </li>
+                                        <li>
+
+                                            Bootstrap
+                                        </li>
+                                        <li>
+
+                                            Sass
+                                        </li>
+                                        <li>
+
+                                            Javascript
+                                        </li>
+                                        <li>
+
+                                            ReactJS + NextJS
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>
+
+
+                                            PWA
+                                        </li>
+                                        <li>
+
+                                            NodeJS
+                                        </li>
+                                        <li>
+
+                                            MySQL
+                                        </li>
+                                        <li>
+
+                                            MongoDB
+                                        </li>
+                                        <li>
+
+                                            Linux
+                                        </li>
+                                        <li>
+
+                                            Nginx
+                                        </li>
+                                        <li>
+
+                                            Apache
+                                        </li>
+                                        <li>
+
+                                            Git
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+
+                                        <li>
+
+                                            Docker
+                                        </li>
+                                        <li>
+
+                                            AWS / GCP / Azure
+                                        </li>
+                                        <li>
+
+                                            Hosting on CPanel
+                                        </li>
+                                        <li>
+
+                                            SSL
+                                        </li>
+                                        <li>
+
+                                            Domain Setup (DNS)
+                                        </li>
+                                        <li>
+
+                                            Email Setup (MX Record)
+                                        </li>
+                                        <li>
+
+                                            Chrome Extension
+                                        </li>
+                                        <li>
+
+                                            Chat-GPT use in Coding
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
                     </div>
 
                     <div className={heroStyles.rightPart}>
-                        <h3>
-
-                            A course by
-                        </h3>
+                        <h3 className={heroStyles.h3}>A course by</h3>
                         <p className={heroStyles.line}>
-                            <Image src="/smallLogo.png" alt="" width={25} height={25} />Xzect
+                            <Image className={heroStyles.smallLogo} src="/smallLogo.png" alt="" width={25} height={25} />Xzect
 
 
                         </p>
-                        <div>
-                            Course Suitable For
+                        <div className={heroStyles.right_courses}>
+                            <h4 className={heroStyles.h4}>
+                                Course Suitable For
+                            </h4>
                             <ul>
                                 <li>
                                     Recently Completed High School.
@@ -120,9 +209,9 @@ const Herosection = (props) => {
 
                         </div>
 
-                        <div>
+                        <div className={heroStyles.right_highlights}>
 
-                            Course Highlights
+                            <h4 className={heroStyles.h4}>Course Highlights</h4>
                             <ul>
 
                                 <li>
@@ -162,9 +251,10 @@ const Herosection = (props) => {
 
                         </div>
 
-                        <div>
+                        <div className={heroStyles.timing} >
 
-                            Course Timings (IST)
+                            <h4 className={heroStyles.h4}> Course Timings (IST)</h4>
+
 
                             <ul>
                                 <li>
@@ -192,9 +282,11 @@ const Herosection = (props) => {
 
                         </div>
 
-                        <div>
+                        <div className={heroStyles.req} >
 
-                            Requirements
+                            <h4 className={heroStyles.h4}>Requirements</h4>
+
+
 
                             <ul>
 
@@ -211,9 +303,9 @@ const Herosection = (props) => {
 
                         </div>
 
-                        <div>
+                        <div className={heroStyles.tag} >
 
-                            Tags
+                            <h4 className={heroStyles.h4}>Tags</h4>
                             <span>
 
                                 Certificate
@@ -243,40 +335,18 @@ const Herosection = (props) => {
                     </div>
 
                 </div>
-                {/* </div> */}
             </main>
 
 
             {/* box */}
-            Live Sessions Recordings
-
-            Access recordings of all live sessions, ensuring you never miss a class and can review concepts at your own pace.
-            Doubt Clearing Support
-
-            Get dedicated doubt clearing sessions to address any questions and clarify concepts for a thorough understanding.
-            Training Certificate
-
-            Earn a valuable training certificate upon successful completion, boosting your resume and demonstrating practical skills.
-            Career Assistance
-
-            Receive guidance and support for your career journey, including resume building and interview preparation.
-
-
-            <p>
-
-                Get certificates on course completion
-
-                Receive Certificates When You Successfully Complete Our Courses, Validating Your Achievements and Skill Development.
-
-            </p>
 
             <Box />
 
             <Certificate />
             {/* <AccordianMain/> */}
             {/* <Accordion  title="Section 1" content="Content for section 1." /> */}
-            <AccordionNextJs title="Section 1" content="Content for section 1."/>
-            <AccordianMain/>
+            <AccordionNextJs title="Section 1" content="Content for section 1." />
+            <AccordianMain />
         </>
 
     );

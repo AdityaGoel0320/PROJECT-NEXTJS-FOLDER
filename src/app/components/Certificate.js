@@ -13,7 +13,7 @@ const Certificate = () => {
 
                     Receive Certificates When You Successfully Complete Our Courses, Validating Your Achievements and Skill Development.
                 </h4>
-                <Image className={style.img} src="/certicate.jpg" alt="" width={1000} height={800} />
+                <Image className={style.img} src="/certicate.jpg" alt="" width={25} height={25} />
             </div>
         </>
     )
